@@ -1,0 +1,12 @@
+.homepage{
+    display: flex;
+    flex-direction: row;
+}
+
+.hompeage-nav{
+    flex: 0.2; /* 20% of webpage */
+}
+
+.homepage-timeline{
+    flex: 0.8; /* 80% of webpage */
+}
