@@ -1,0 +1,46 @@
+.suggestions {
+    margin-top: 30px;
+}
+
+.suggestions-title{
+    color: grey;
+    font-weight: bolder;
+}
+
+.username-left{
+    display: flex;
+    align-items: center;
+}
+
+.username-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.relation{
+    color: grey;
+    font-size: 12px;
+}
+
+.suggestion-username {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.follow-button{
+    color: #0095f7;
+    font-weight: bold;
+    background: 0;
+    border: 0;
+}
+
+.follow-button:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.username {
+    font-weight: 600;
+    font-size: 14px;
+}
