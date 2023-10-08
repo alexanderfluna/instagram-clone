@@ -59,7 +59,7 @@ function Suggestions() {
           </div>
           <button className="follow-button">Follow</button>
         </div>
-        
+
       </div>
     </div>
   )

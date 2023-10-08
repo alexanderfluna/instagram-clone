@@ -6,6 +6,7 @@ function Timeline() {
   return (
     <div className = "timeline">
         <div className = "timeline-left">Timeline</div>
+        
         <div className = "timeline-right">
             <Suggestions />
         </div>

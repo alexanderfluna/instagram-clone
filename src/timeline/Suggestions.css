@@ -1,23 +1,24 @@
 .suggestions {
     margin-top: 30px;
+    margin-right: 20px;
 }
 
-.suggestions-title{
+.suggestions-title {
     color: grey;
     font-weight: bolder;
 }
 
-.username-left{
-    display: flex;
-    align-items: center;
+.username-left {
+    display: inline-flex;
 }
 
 .username-info{
     display: flex;
     flex-direction: column;
+    margin-left: 7px;
 }
 
-.relation{
+.relation {
     color: grey;
     font-size: 12px;
 }
@@ -29,10 +30,11 @@
 }
 
 .follow-button{
-    color: #0095f7;
+    color: #0095f6;
     font-weight: bold;
     background: 0;
     border: 0;
+    margin-right: 5px;
 }
 
 .follow-button:hover{
