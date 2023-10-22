@@ -1,7 +1,7 @@
-import { signInWithEmailAndPassword } from "firebase/auth";
 import React, { useState } from "react";
-import { auth } from "../firebase";
 import "./Login.css";
+import { signInWithEmailAndPassword } from "firebase/auth";
+import { auth } from "../firebase";
 
 function Login() {
   const [email, setEmail] = useState("")
@@ -28,7 +28,7 @@ function Login() {
       value = {password}
       />
       
-      <button>Log in</button>
+      <button onClick={handleLogin}>Log in</button>
     </div>
   )
 }

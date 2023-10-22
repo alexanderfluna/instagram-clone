@@ -51,7 +51,7 @@ function Signup() {
       value = {password}
       />
 
-      <button onClick={handleSignUp}>Sign in</button>
+      <button onClick={handleSignUp}>Sign up</button>
     </div>
   )
 }

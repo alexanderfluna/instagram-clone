@@ -44,3 +44,17 @@
     position: fixed;
     bottom: 3px;
 }
+
+.loguout-button{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.211);
+    border-radius: 10px;
+    border: 0;
+}
+
+.logout-button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.424);
+}

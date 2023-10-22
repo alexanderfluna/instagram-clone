@@ -15,17 +15,19 @@
 }
 
 .auth-left > img {
-    width: 400px;
-    margin-top: 40px;
+    width: 500px;
+    height: 800px;
+    margin-top: 30px;
+    margin-left: 500px;
 }
 
 .auth-more {
     border: 1px solid grey;
     padding: 20px;
     margin-right: 30px;
-    margin-left: 30px;
-    text-align: center;
     margin-top: 15px;
+    width: 360px;
+    text-align: center;
 }
 
 .auth-more > span {
@@ -42,4 +44,8 @@
 
 .auth-more > span > button:hover {
     cursor: pointer;
+}
+
+.auth-footer {
+
 }

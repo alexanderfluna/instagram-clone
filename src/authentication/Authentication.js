@@ -35,6 +35,10 @@ function Authentication() {
           </span>
         </div>
       </div>
+
+      <div className="auth-footer">
+      </div>
+      
     </div>
   )
 }
