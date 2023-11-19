@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     height: 400px;
-    width: 300px;
+    width: 250px;
     border: 1px solid grey;
     padding: 50px 50px 0px 50px;
     margin-right: 30px;
@@ -38,5 +38,32 @@
 }
 
 .login > button:hover {
+    cursor: pointer;
+}
+
+.log-in-with-facebook {
+    color: rgb(0, 140, 255);
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.log-in-with-facebook > img {
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
+
+.log-in-with-facebook:hover {
+    cursor: pointer;
+}
+
+.forgot-password {
+    color: grey;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+.forgot-password:hover {
     cursor: pointer;
 }

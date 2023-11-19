@@ -29,6 +29,13 @@ function Login() {
       />
       
       <button onClick={handleLogin}>Log in</button>
+
+      <div className="log-in-with-facebook">
+        <img src="https://th.bing.com/th/id/OIP.WE109lmuCjsw8asJparTPgHaHa?rs=1&pid=ImgDetMain" alt="Instagram"></img>
+        Log in with Facebook
+      </div>
+
+      <div className="forgot-password">Forgot password?</div>
     </div>
   )
 }
