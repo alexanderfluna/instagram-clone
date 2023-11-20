@@ -39,16 +39,43 @@
     margin-top: 15px;
 }
 
+.switch-button {
+    color: #0095f6;
+    font-weight: bold;
+    background: 0;
+    border: 0;
+    margin-left: 80px;
+}
+
+.switch-button:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.see-all-button {
+    color: black;
+    font-weight: bold;
+    background: 0;
+    border: 0;
+    margin-left: 65px;
+    font-size: 13px;
+}
+
+.see-all-button:hover{
+    color: grey;
+    cursor: pointer;
+}
+
 .follow-button{
     color: #0095f6;
     font-weight: bold;
     background: 0;
     border: 0;
-    margin-right: 5px;
+    margin-right: 80px;
 }
 
 .follow-button:hover{
-    color: white;
+    color: black;
     cursor: pointer;
 }
 

@@ -28,7 +28,7 @@ function Signup() {
 
   return (
     <div className="signup">
-      <img src="https://th.bing.com/th/id/R.58e1880fc14bf0c89a7967c2792bcece?rik=YXXhJ847THBahQ&pid=ImgRaw&r=0" alt="Instagram"></img>
+      <img src="https://th.bing.com/th/id/R.0dec417928863d43f88a01ec70a89eaf?rik=xvzuInJ9Hq8G5g&pid=ImgRaw&r=0" alt="Instagram"></img>
 
       <input 
       onChange={e => setEmail(e.target.value)} 

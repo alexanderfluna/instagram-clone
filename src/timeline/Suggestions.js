@@ -14,9 +14,13 @@ function Suggestions() {
           <Avatar>A</Avatar>
         </div>
         {user.username}
+        <button className="switch-button">Switch</button>
       </div>
 
-      <div className="suggestions-title">Suggestions for you</div>
+      <div className="suggestions-title">
+        Suggested for you
+        <button className="see-all-button">See all</button>
+      </div>
       <div className="suggestions-usernames">
 
         <div className="suggestion-username">
@@ -48,7 +52,7 @@ function Suggestions() {
         <div className="suggestion-username">
           <div className="username-left">
             <span className="avatar">
-            <Avatar>A</Avatar>
+            <Avatar>K</Avatar>
             </span>
             <div class="username-info">
               <span class="username">Kenny</span>
@@ -61,7 +65,7 @@ function Suggestions() {
         <div className="suggestion-username">
           <div className="username-left">
             <span className="avatar">
-            <Avatar>A</Avatar>
+            <Avatar>K</Avatar>
             </span>
             <div class="username-info">
               <span class="username">Kevin</span>
